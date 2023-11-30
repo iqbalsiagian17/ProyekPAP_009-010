@@ -1,0 +1,219 @@
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .col-4 {
+      width: 100%;
+      max-width: 100%;
+      order: -1;
+    }
+    .col-4 img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+    .col-8 {
+      width: 100%;
+      max-width: 100%;
+    }
+    .col-8 p {
+      margin-top: 20px;
+    }
+  }
+
+
+
+
+/*for Demo Only*/
+.sponsor-feature {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  border: 1px solid rgb(58, 49, 49); /* Menambahkan garis border dengan ketebalan 1px dan warna hitam */
+}
+
+#id-sponsors .carousel {
+  margin-bottom: 20px;
+}
+#id-sponsors .item {
+  padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+  bottom: -25px;
+}
+
+
+
+.event {
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Mengatur item agar berada di tengah secara vertikal */
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.date {
+  flex: 0 0 150px; /* Mengatur lebar untuk tanggal */
+  text-align: center;
+  background-color: #607D8D;
+  color: #fff;
+}
+
+.title-event{
+  margin-bottom: 90px;
+  margin-left: 20px;
+}
+
+
+  .event .date {
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      background-color: #607D8D;
+      vertical-align: middle;
+      overflow: hidden;
+  }
+
+      .event .date .day {
+          font-size: 70px;
+          color: #fff;
+      }
+
+      .event .date .month {
+          font-size: 30px;
+          color: #fff;
+      }
+
+  
+
+  .event .desc {
+      display: inline-block;
+      padding-left: 20px;
+      font-size: 15px;
+      overflow: hidden;
+      vertical-align: middle;
+  }
+
+  .event .social {
+      font-size: 25px;
+      overflow: hidden;
+  }
+
+      .event .social .si {
+          display: inline-block;
+          width: 100%;
+          clear: both;
+          vertical-align: middle;
+          overflow: hidden;
+      }
+
+@media screen and (max-width:640px) {
+  .event .desc h3 {
+      font-size: 15px;
+  }
+
+  .event {
+      height: 100px;
+  }
+
+      .event .date {
+          width: 100px;
+          height: 100px;
+      }
+
+          .event .date .day {
+              font-size: 40px;
+          }
+
+          .title-event{
+            margin-bottom: 70px;
+            margin-left: 10px;
+          }
+
+          .event {
+            display: flex; /* Menggunakan flexbox */
+            width: 100%;
+            height: 150px;
+            justify-content: center;
+          }
+
+}
+
+
+.grid-margin {
+  margin-bottom: 2rem;
+}
+
+.stretch-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+}
+
+.stretch-card .card {
+  width: 100%;
+}
+
+
+.rotate-img img {
+  max-height: 200px; /* Ganti angka 200px sesuai keinginan tinggi maksimum yang diinginkan */
+  width: 500px; /* Memastikan lebar gambar disesuaikan dengan proporsi aslinya */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
