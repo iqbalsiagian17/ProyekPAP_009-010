@@ -37,10 +37,6 @@
     }
   }
 
-
-
-
-/*for Demo Only*/
 .sponsor-feature {
   background-color: #fff;
   padding: 20px;
@@ -50,7 +46,15 @@
   align-items: center;
   justify-content: center;
   margin: 5px 0;
-  border: 1px solid rgb(58, 49, 49); /* Menambahkan garis border dengan ketebalan 1px dan warna hitam */
+  border: 1px solid rgb(58, 49, 49); 
+}
+
+.fill{
+  cursor: pointer;
+}
+
+.fill:hover{
+  background-color: #efefef;
 }
 
 #id-sponsors .carousel {
@@ -184,29 +188,9 @@
 
 
 .rotate-img img {
-  max-height: 200px; /* Ganti angka 200px sesuai keinginan tinggi maksimum yang diinginkan */
-  width: 500px; /* Memastikan lebar gambar disesuaikan dengan proporsi aslinya */
+  max-height: 200px; 
+  width: 500px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .carousel-caption {
   background-color: rgb(0 0 0 / 46%);
