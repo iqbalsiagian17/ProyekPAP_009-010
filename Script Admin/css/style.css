@@ -194,10 +194,10 @@
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
-    color: #000;
+    color: var(--dark);
     background-color: var(--light);
     border-color: var(--bs-white);
-}
+}   
 
 .nav-tabs {
     border-bottom: 1px soid var(--bs-white);
@@ -205,7 +205,7 @@
     border-bottom-style: solid;
     border-bottom-color: var(--bs-white);
 }
-
+    
 .content .navbar .navbar-nav .nav-link:hover,
 .content .navbar .navbar-nav .nav-link.active {
     color: var(--light);
@@ -220,6 +220,13 @@
     justify-content: center;
     background: var(--dark);
     border-radius: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--dark);
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out;
 }
 
 .content .navbar .dropdown-item {
